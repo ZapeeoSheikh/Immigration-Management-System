@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Login_Panel {
 //    public static void main(String[] args) {
        public void login(){
-        String fixusername = "@gmail.com";
-        String lpassword;
-        String lusername;
-        String dob;
-        String semail;
+        static String fixusername = "@gmail.com";
+        static String lpassword;
+        static String lusername;
+        static String dob;
+        static String semail;
         Scanner zap = new Scanner(System.in);
         AccountCreation_Panel acp = new AccountCreation_Panel();
 
